@@ -1,0 +1,28 @@
+{
+    "name": "lio/redis-cli",
+    "description": "redis manage",
+    "keywords": ["redis","manage"],
+    "homepage": "https://github.com/Composer2017",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "颜回",
+            "email": "yanhui@51huxin.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "RedisCli\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
